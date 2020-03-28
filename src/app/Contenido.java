@@ -14,7 +14,7 @@ double tiempoVisto;
 List <Genero> generos = new ArrayList<>();
 List <Actor> actores =  new ArrayList<>();
 
-
+public int calificacion;
 
 
 
