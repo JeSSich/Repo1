@@ -14,6 +14,11 @@ public class Webisodios extends Episodio{
 
     }
 
+
+    public Webisodios(int numero, String nombre){
+        super(numero,nombre);
+        this.url="http//hufhsuihfsif";
+    }
     /**
      * "envia" un mail de alerta cuando la serie este online. Este metodo NO esta en
      * EPISODIO.

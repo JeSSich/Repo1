@@ -114,11 +114,7 @@ public class Poolfix {
 
         Temporada t3 = new Temporada();
         t3.numero=3;
-        Webisodios webisodios= new Webisodios();
-        webisodios.numero = 3 ;
-        webisodios.nombre = "Alone ";
-        webisodios.duracion = 10;
-        webisodios.url="http//ladire.com";
+        Webisodios webisodios= new Webisodios(3,"Alone");
         t3.episodios.add(webisodios);
         walkingDeadSerie.temporadas.add(t3);
 
