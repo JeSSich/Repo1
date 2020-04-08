@@ -54,26 +54,26 @@ public class Poolfix {
    genero.nombre = "Drama";
 
    Episodio episodio = new Episodio();
-   episodio.nombre ="episodio 1";
-   episodio.duracion =1.5;
-   episodio.numero =3; 
+   episodio.setNombre("episodio 1");
+   episodio.setDuracion(1.5);
+   episodio.setNumero(3); 
 
    Temporada t5 = new Temporada();
    t5.numero = 5;
 
    Episodio ep = new Episodio();
 
-   ep.numero = 7;
-   ep.nombre = "Say my name";
-   ep.duracion = 43;
+   ep.setNumero(7);
+   ep.setNombre("Say mu name");
+   ep.setDuracion(43);
 
    t5.episodios.add(ep);
 
    Episodio epOtro = new Episodio();
 
-   epOtro.numero = 5;
-   epOtro.nombre = "Ozymandias";
-   epOtro.duracion = 41;
+   epOtro.setNumero(5);
+   epOtro.setNombre("Ozymandias");
+   epOtro.setDuracion(41);
 
    t5.episodios.add(epOtro);
 
@@ -97,14 +97,14 @@ public class Poolfix {
         Temporada t5 = new Temporada();
         t5.numero = 5;
         Episodio ep = new Episodio();
-        ep.numero = 7;
-        ep.nombre = "Say my name";
-        ep.duracion = 43;
+        ep.setNumero(7);
+        ep.setNombre("Say my name");
+        ep.setDuracion(43);
         t5.episodios.add(ep);
         Episodio epOtro = new Episodio();
-        epOtro.numero = 5;
-        epOtro.nombre = "Ozymandias";
-        epOtro.duracion = 41;
+        epOtro.setNumero(5);
+        epOtro.setNombre("Ozymandias");
+        epOtro.setDuracion(41);
         t5.episodios.add(epOtro);
         breakingB.temporadas.add(t5);
         this.series.add(breakingB); 
@@ -121,15 +121,15 @@ public class Poolfix {
         Episodio epi8 = new Episodio();
         Temporada t4 = new Temporada();
         t4.numero = 4;
-        epi8.numero = 8;
-        epi8.nombre = "Too Far Gone";
-        epi8.duracion = 43;
+        epi8.setNumero(8);
+        epi8.setNombre("Too Far Gone"); 
+        epi8.setDuracion(43); 
         t4.episodios.add(epi8);
 
         Episodio epi9 = new Episodio();
-        epi9.numero = 9;
-        epi9.nombre = "After";
-        epi9.duracion = 43;
+        epi9.setNumero(9); 
+        epi9.setNombre("After");
+        epi9.setDuracion(43);
         t4.episodios.add(epi9);
         walkingDeadSerie.temporadas.add(t4);
        
@@ -137,15 +137,15 @@ public class Poolfix {
         Temporada t7 = new Temporada();
         t7.numero = 7;
         Episodio epi7 = new Episodio();
-        epi7.numero = 1;
-        epi7.nombre = "The Day Will Come When You Won't Be";
-        epi7.duracion = 45;
+        epi7.setNumero(1);
+        epi7.setNombre("The Day Will Come When You Won't Be");        
+        epi7.setDuracion(45); 
         t7.episodios.add(epi7);
 
         Episodio epi3 = new Episodio();
-        epi3.numero = 3;
-        epi3.nombre = "The Cell";
-        epi3.duracion = 43;
+        epi3.setNumero(3);
+        epi3.setNombre("The Cell"); 
+        epi3.setDuracion(43); 
         t7.episodios.add(epi3);
         walkingDeadSerie.temporadas.add(t7);
         
