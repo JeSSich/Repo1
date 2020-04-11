@@ -1,15 +1,18 @@
+
 package app;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import app.persona.Actor;
+
 /**
  * Poolfix
  */
 public class Poolfix {
-    public List<Pelicula> peliculas = new ArrayList<>();
-    List<Serie> series = new ArrayList<>();
-    List<Genero> generos = new ArrayList<>();
+    public List<Pelicula> peliculas = new ArrayList<Pelicula>();
+    public List<Serie> series = new ArrayList<Serie>();
+    public List<INominable> nominados = new ArrayList<>();
 
     public Contenido buscarPorTitulo(String titulo) {
         return null;
